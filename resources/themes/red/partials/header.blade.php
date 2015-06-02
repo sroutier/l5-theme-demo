@@ -1,1 +1,1 @@
-<header id="header">HEADER</header>
+<header id="header">Unique text in the HEADER of the red theme</header>

@@ -1,1 +1,1 @@
-<footer id="footer">FOOTER</footer>
+<footer id="footer">Unique text in the FOOTER of the red theme</footer>
