@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "24c3946acc997e3f3eca7fc5c99585b2",
+    "hash": "efec71c270b14fb1b99ee1ab05907f53",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1742,6 +1742,42 @@
                 "environment"
             ],
             "time": "2015-05-30 15:59:26"
+        },
+        {
+            "name": "yaap/theme",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yaapis/Theme.git",
+                "reference": "3770e9419ec42d404ac55b33541b799730982b8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yaapis/Theme/zipball/3770e9419ec42d404ac55b33541b799730982b8a",
+                "reference": "3770e9419ec42d404ac55b33541b799730982b8a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.0.*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "YAAP\\Theme": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Biluk Andrey",
+                    "email": "biluk.a@newway.com.ua"
+                }
+            ],
+            "time": "2015-03-24 15:33:02"
         }
     ],
     "packages-dev": [
