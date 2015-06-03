@@ -15,9 +15,11 @@ class ThemeTestController extends Controller {
      */
     public function show($theme)
     {
+        $themes = Theme::getList();
+
         Theme::init($theme);
 
-        return view('hello');
+        return view('hello', compact('themes'));
     }
 
 }

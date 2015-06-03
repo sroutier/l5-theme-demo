@@ -1,4 +1,8 @@
 <header id="header">
     HEADER
-    Static menu: <a href="/themed/blue">Blue</a> | <a href="/themed/default">Default</a> | <a href="/themed/red">Red</a>
+    Dynamic menu:
+    @foreach($themes as $theme)
+        <a href="{{ url('/themed/' . $theme) }}">{{ $theme }}</a> |
+    @endforeach
+    </div>
 </header>
