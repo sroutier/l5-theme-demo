@@ -6,7 +6,7 @@
 	"type": "project",
 	"require": {
 		"laravel/framework": "5.0.*",
-                "yaap/theme": "2.*"
+                "yaap/theme": "dev-master#b1064bf16fcadd0156366d1066a5ca69a002ce8e"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
